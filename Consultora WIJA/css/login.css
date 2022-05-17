@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bordes{
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+main{
+    display: flex;
+
+    margin: 0% 0%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.con-principal{
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+    display: flex;
+    width: 20vw;
+    height: 30vh;
+}
+.correo ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.correo li{
+    list-style: none;
+    margin: 2px 5px;
+}
+
+.img-correo{
+
+    height: max-content;
+
+}
+
+.tamano-iconos{
+    height: 40px;
+    width: 40px;
+}
+
+.ingresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    padding: 5px;
+    background-color: #e7e71f;
+}
+
+.entrada {
+    border-radius: 5px;
+    border-color: black;
+    padding: 5px;
+    size: 10px;
+    width: 14vw;
+}
